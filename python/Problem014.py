@@ -1,7 +1,7 @@
 # Problem 14
 # By: Tim Oram
 #
-# Runtime: 2.222s
+# Runtime: 2.205s
 
 cache = {}
 
@@ -12,17 +12,18 @@ def collatz(number):
 	if number == 1:
 		return 1
 
-	if (number%2) == 0:
-		cache[number] = 1 + collatz(number/2)
-	else:
+	if number&1:
 		cache[number] = 1 + collatz(3*number + 1)
+	else:
+		cache[number] = 1 + collatz(number/2)
 
 	return cache[number]
 
 greatest = 0
 greatest_i = 1
 
-for i in xrange(1, 1000001):
+# odd numbers only
+for i in xrange(1, 1000000):
 	t = collatz(i)
 	if (t > greatest):
 		greatest = t
