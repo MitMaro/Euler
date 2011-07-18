@@ -60,7 +60,7 @@ while True:
 	t,v,c = cache[n]
 	t  = t * (c+1)
 	if t > 500:
-		print n
+		print "Answer:", n
 		break
 
 

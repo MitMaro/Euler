@@ -13,7 +13,7 @@ grid = \
 + "32 98 81 28 64 23 67 10 26 38 40 67 59 54 70 66 18 38 64 70 " \
 + "67 26 20 68 02 62 12 20 95 63 94 39 63 08 40 91 66 49 94 21 " \
 + "24 55 58 05 66 73 99 26 97 17 78 78 96 83 14 88 34 89 63 72 " \
-+"21 36 23 09 75 00 76 44 20 45 35 14 00 61 33 97 34 31 33 95 " \
++ "21 36 23 09 75 00 76 44 20 45 35 14 00 61 33 97 34 31 33 95 " \
 + "78 17 53 28 22 75 31 67 15 94 03 80 04 62 16 14 09 53 56 92 " \
 + "16 39 05 42 96 35 31 47 55 58 88 24 00 17 54 24 36 29 85 57 " \
 + "86 56 00 48 35 71 89 07 05 44 44 37 44 60 21 58 51 54 17 58 " \
@@ -37,38 +37,38 @@ for i in xrange(3, 17):
 		# left
 		total = grid[i*20+j] * grid[i*20+j-1] * grid[i*20+j-2] * grid[i*20+j-3]
 		if total > highest:
-			highest = total		
-
+			highest = total
+		
 		# right
 		total = grid[i*20+j] * grid[i*20+j+1] * grid[i*20+j+2] * grid[i*20+j+3]
 		if total > highest:
 			highest = total
-
+		
 		# down
 		total =  grid[i*20+j] * grid[(i+1)*20+j] * grid[(i+2)*20+j] * grid[(i+3)*20+j]
-                if total > highest:
-                        highest = total
-
+		if total > highest:
+			highest = total
+		
 		# up-left
 		total = grid[i*20+j] * grid[(i-1)*20+j-1] * grid[(i-2)*20+j-2] * grid[(i-3)*20+j-3]
-                if total > highest:
-                        highest = total
-
+		if total > highest:
+			highest = total
+		
 		# up-right
 		total = grid[i*20+j] * grid[(i-1)*20+j+1] * grid[(i-2)*20+j+2] * grid[(i-3)*20+j+3]
-                if total > highest:
-                        highest = total
-
+		if total > highest:
+			highest = total
+		
 		# down-left
 		total = grid[i*20+j] * grid[(i+1)*20+j-1] * grid[(i+2)*20+j-2] * grid[(i+3)*20+j-3]
-                if total > highest:
-                        highest = total
-
+		if total > highest:
+			highest = total
+		
 		# down right
 		total = grid[i*20+j] * grid[(i+1)*20+j+1] * grid[(i+2)*20+j+2] * grid[(i+3)*20+j+3]
-                if total > highest:
-                        highest = total
+		if total > highest:
+			highest = total
 
 
-print highest
+print "Answer:", highest
  

@@ -21,7 +21,4 @@ while True:
 	if len(factors) == 10001:
 		break
 
-print factors[-1]
-
-
-
+print "Answer:", factors[-1]

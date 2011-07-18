@@ -114,5 +114,5 @@ for d in digits:
 	
 	total += int(d)
 
-print str(total)[0:10]
+print "Answer:", str(total)[0:10]
 

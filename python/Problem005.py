@@ -25,7 +25,4 @@ while True:
 			i *= 3
 		
 
-print i
-
-
-
+print "Answer:", i

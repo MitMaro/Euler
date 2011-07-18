@@ -13,4 +13,4 @@ while b < 4000000:
 	a = b
 	b =  tmp + a
 
-print t
+print "Answer:", t

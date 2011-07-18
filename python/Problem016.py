@@ -11,4 +11,4 @@ total = 0
 for i in str(value):
 	total += int(i)
 
-print total
+print "Answer:", total

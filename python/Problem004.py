@@ -16,7 +16,7 @@ for i in xrange(100, 1000):
 			highest_i = i
 			highest_j = j
 
-print highest_i, "*", highest_j, "=", highest_i*highest_j, "::", highest
+print "Answer:", highest
 
 
 

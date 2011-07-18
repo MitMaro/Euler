@@ -30,4 +30,4 @@ t = 0
 for i in xrange(2,len(numbers)):
 	if numbers[i]:
 		t += i
-print t  
+print "Answer:", t

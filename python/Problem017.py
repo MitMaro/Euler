@@ -34,4 +34,4 @@ for i in range(1, 1000):
 		j = j - d
 		total += number_map[j]
 
-print total
+print "Answer:", total
