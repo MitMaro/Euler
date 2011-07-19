@@ -10,24 +10,25 @@ num = 2000000
 
 numbers = [True] * num
 
-p = 2
+p = 3
 
 numbers[0] = False
 numbers[1] = False
 
-while p*p < num:
-	for i in xrange(p+1, len(numbers)):
+for i in xrange(2, 2000000, 2):
+	numbers[i] = False
+	
+while p*p <= num:
+	for i in xrange(p+2, 2000000, 2):
 		if numbers[i] and (i%p) == 0:
 			numbers[i] = False
-	i = p
 	while True:
-		i += 1
-		if numbers[i]:
-			p = i
+		p += 2
+		if numbers[p]:
 			break
 
-t = 0
-for i in xrange(2,len(numbers)):
+t = 2
+for i in xrange(3, 2000000, 2):
 	if numbers[i]:
 		t += i
 print "Answer:", t
