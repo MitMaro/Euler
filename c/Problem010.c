@@ -11,7 +11,7 @@ int main (void) {
 
 	int i, j;
 	
-	unsigned long sum = 2;
+	unsigned long sum;
 
 	// remove 2s
 	for (i = 4; i <= 2000000; i += 2) {
@@ -31,7 +31,7 @@ int main (void) {
 			i += 2;
 		} while (primes[i]);
 	}
-
+	sum = 2;
 	for (i = 3; i < 2000000; i += 2) {
 		if (!primes[i]) {
 			sum += i;
