@@ -47,6 +47,8 @@ cache_item *find_cache_item (cache_item *cache_head, int prime) {
 	while (cache_head != NULL) {
 		if (cache_head->prime == prime) {
 			return cache_head;
+		} else if (cache_head->prime > prime) {
+			return NULL;
 		}
 		cache_head = cache_head->next;
 	}

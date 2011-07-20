@@ -4,6 +4,6 @@
     |            Language:                python |
     |     Expected Answer:              76576500 |
     |   Calculated Answer:              76576500 |
-    |        Running Time:              0.1200 s |
-    |        Memory Usage:              72624 kB |
+    |        Running Time:              0.1300 s |
+    |        Memory Usage:              72608 kB |
     +--------------------------------------------+

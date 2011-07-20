@@ -5,5 +5,5 @@
     |     Expected Answer:              76576500 |
     |   Calculated Answer:              76576500 |
     |        Running Time:              0.0100 s |
-    |        Memory Usage:               8736 kB |
+    |        Memory Usage:               8720 kB |
     +--------------------------------------------+
