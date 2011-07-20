@@ -1,9 +1,9 @@
     +--------------------------------------------+
-    | Project Euler     Problem 015        ERROR |
+    | Project Euler     Problem 015       PASSED |
     +--------------------------------------------+
     |            Language:                python |
     |     Expected Answer:          137846528820 |
-    |   Calculated Answer:                     0 |
-    |        Running Time:              0.0000 s |
-    |        Memory Usage:                  0 kB |
+    |   Calculated Answer:          137846528820 |
+    |        Running Time:              0.0100 s |
+    |        Memory Usage:              20064 kB |
     +--------------------------------------------+
