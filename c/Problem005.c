@@ -37,5 +37,5 @@ int main(void) {
 	}
 	
 	printf ("Answer: %d\n", i);
-
+	return 0;
 }
