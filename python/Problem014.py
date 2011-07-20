@@ -20,7 +20,6 @@ def collatz(number):
 greatest = 0
 greatest_i = 1
 
-# odd numbers only
 for i in xrange(1, 1000000):
 	t = collatz(i)
 	if (t > greatest):
