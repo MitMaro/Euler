@@ -1,7 +1,6 @@
 # Problem 7
 # By: Tim Oram
-#
-# Runtime: 0.018s
+
 import sys
 
 factors = []

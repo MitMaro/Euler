@@ -1,7 +1,5 @@
 # Problem 14
 # By: Tim Oram
-#
-# Runtime: 2.205s
 
 cache = {}
 

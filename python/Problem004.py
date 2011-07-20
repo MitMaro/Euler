@@ -1,7 +1,5 @@
 # Problem 4
 # By: Tim Oram
-#
-# Runtime: 0.580s
 
 import math
 

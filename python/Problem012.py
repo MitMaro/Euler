@@ -1,7 +1,5 @@
 # Problem 12
 # By: Tim Oram
-#
-# Runtime: 0.227s
 
 def getPrimeFactors(number):
 	global primes

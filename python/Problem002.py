@@ -1,7 +1,5 @@
 # Problem 2
 # By: Tim Oram
-#
-# Runtime: 0.018s
 
 a = 1
 b = 2

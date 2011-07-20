@@ -1,7 +1,5 @@
 # Problem 9
 # By: Tim Oram
-#
-# Runtime: 4.560s 
 
 import math
 import sys

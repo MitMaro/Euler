@@ -1,7 +1,5 @@
 // Problem 7
 // By: Tim Oram
-//
-// Runtime: 0.023s
 
 #include <stdio.h>
 

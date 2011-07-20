@@ -1,7 +1,5 @@
 // Problem 22
 // By: Tim Oram
-//
-// Runtime: 0.324s
 
 #include <stdio.h>
 #include <string.h>

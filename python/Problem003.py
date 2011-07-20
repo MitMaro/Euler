@@ -1,8 +1,5 @@
 # Problem 3
-# 
 # By: Tim Oram
-#
-# Runtime: 0.115s
 
 import math
 import sys
