@@ -1,9 +1,9 @@
     +--------------------------------------------+
-    | Project Euler     Problem 021        ERROR |
+    | Project Euler     Problem 021       PASSED |
     +--------------------------------------------+
     |            Language:                python |
     |     Expected Answer:                 31626 |
-    |   Calculated Answer:                     0 |
-    |        Running Time:              0.0000 s |
-    |        Memory Usage:                  0 kB |
+    |   Calculated Answer:                 31626 |
+    |        Running Time:             19.2200 s |
+    |        Memory Usage:              22976 kB |
     +--------------------------------------------+
