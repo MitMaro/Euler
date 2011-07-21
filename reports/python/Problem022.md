@@ -1,9 +1,9 @@
     +--------------------------------------------+
-    | Project Euler     Problem 022        ERROR |
+    | Project Euler     Problem 022       PASSED |
     +--------------------------------------------+
     |            Language:                python |
     |     Expected Answer:             871198282 |
-    |   Calculated Answer:                     0 |
-    |        Running Time:              0.0000 s |
-    |        Memory Usage:                  0 kB |
+    |   Calculated Answer:             871198282 |
+    |        Running Time:              0.0200 s |
+    |        Memory Usage:              21360 kB |
     +--------------------------------------------+
