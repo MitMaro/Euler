@@ -1,9 +1,9 @@
     +--------------------------------------------+
-    | Project Euler     Problem 018        ERROR |
+    | Project Euler     Problem 018       PASSED |
     +--------------------------------------------+
     |            Language:                python |
     |     Expected Answer:                  1074 |
-    |   Calculated Answer:                     0 |
-    |        Running Time:              0.0000 s |
-    |        Memory Usage:                  0 kB |
+    |   Calculated Answer:                  1074 |
+    |        Running Time:              0.0100 s |
+    |        Memory Usage:              20272 kB |
     +--------------------------------------------+
