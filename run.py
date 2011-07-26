@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python
 
 import subprocess
 import json
@@ -27,7 +27,7 @@ problems = {
 	'20': {"number": 20, "python": "python/Problem020.py", "c": "c/Problem020.c", "answer": 648},
 	'21': {"number": 21, "python": "python/Problem021.py", "c": "c/Problem021.c", "answer": 31626},
 	'22': {"number": 22, "python": "python/Problem022.py", "c": "c/Problem022.c", "answer": 871198282},
-	#'23': {"number": 23, "python": "python/Problem023.py", "c": "c/Problem023.c", "answer": }
+	'23': {"number": 23, "python": "python/Problem023.py", "c": "c/Problem023.c", "answer": 4179871},
 	#'24': {"number": 24, "python": "python/Problem024.py", "c": "c/Problem024.c", "answer": 31875000}
 	'25': {"number": 25, "python": "python/Problem025.py", "c": "c/Problem025.c", "answer": 4782},
 	'28': {"number": 28, "python": "python/Problem028.py", "c": "c/Problem028.c", "answer": 669171001},
